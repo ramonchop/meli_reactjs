@@ -1,0 +1,33 @@
+@use '../../App' as *
+
+.home-page-body-container
+    max-width: 1000px
+    margin: 0 auto
+    padding-top: 20px
+    display: flex
+    flex-direction: column
+
+.loading
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: center
+    height: 100vh
+    width: 100vw
+
+.hide-loading
+    display: none
+
+.loader
+    border: 8px solid #fff
+    border-top: 8px solid #2d3277
+    border-radius: 50%
+    width: 50px
+    height: 50px
+    animation: spin 2s linear infinite
+
+@keyframes spin
+    0%  
+        transform: rotate(0deg)
+    100%  
+        transform: rotate(360deg)

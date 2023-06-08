@@ -1,0 +1,50 @@
+@use '../../App' as *
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration
+    display: none
+
+.search-bar
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    width: 100%
+    height: 60px
+    background-color: $primary-color
+.logo
+    padding-right: 20px
+
+.form
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    
+.search-input, .search-button
+    box-shadow: 0 1px 2px 0 #00000033
+    height: 40px
+    border: solid 1.5px #00000000
+
+
+.search-input
+    color: #333
+    font-size: 16px
+    margin: 0
+    font-family: inherit
+    border-radius: 2px 0px 0px 2px
+    background-color: #fff
+    padding: 10px 60px 10px 15px
+    border-width: 1.5px 1.5px 1.5px 1.5px
+    width: 580px
+
+.search-button
+    width: 40px
+    border-radius: 0px 2px 2px 0px
+    background-color: #fff
+
+.search-icon
+    color: #8b8b8b
+    font-size: 16px
