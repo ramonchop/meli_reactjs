@@ -5,7 +5,7 @@ y ver el detalle de estos.
 
 ## Como ejecutar
 
-En el directorio dle proyecto debes ejecutar:
+En el directorio del proyecto debes ejecutar:
 
 ### `npm start`
 
