@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Meli React Front End
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto permite realizar busquedas de proudctos de [Mercadolibre][http://www.mercadolibre.com.ar]
+y ver el detalle.
 
 ## Available Scripts
 
